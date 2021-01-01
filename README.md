@@ -44,7 +44,24 @@ Go ahead and train SimpleNet on our hydroponics, and medical marijuana dataset.
 ```
 python train_model.py --dataset dataset/
 ```
+Results: 
+```
+[INFO] evaluating network...
+                precision    recall  f1-score   support
 
-The network obtained 95% classification accuracy, and as the plot demonstrates, there is no overfitting.
+    hairy_root       1.00      0.95      0.97       299
+non_hairy_root       0.95      1.00      0.98       311
 
-![Fig1]("")
+      accuracy                           0.98       610
+     macro avg       0.98      0.97      0.98       610
+  weighted avg       0.98      0.98      0.98       610
+```
+
+The network obtained 98% classification accuracy, and as the plot demonstrates, there is no overfitting.
+
+![Dataset Sample](https://github.com/walae-br/medical-marijuana/blob/main/plot.png?raw=true)
+
+
+And here is a our prediction:
+
+![Dataset Sample](https://github.com/walae-br/medical-marijuana/blob/main/Output_screenshot_02.01.2021.png?raw=true)
