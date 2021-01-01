@@ -34,6 +34,11 @@ Clone the repository:
 git clone git@github.com:walae-br/medical-marijuana.git
 ```
 
+Requirments:
+```
+Tensorflow '2.2.0'
+```
+
 Go ahead and train SimpleNet on our hydroponics, and medical marijuana dataset.
 
 ```
