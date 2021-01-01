@@ -42,7 +42,7 @@ Tensorflow '2.2.0'
 Go ahead and train SimpleNet on our hydroponics, and medical marijuana dataset.
 
 ```
-python train_model.py
+python train_model.py --dataset dataset/
 ```
 
 The network obtained 95% classification accuracy, and as the plot demonstrates, there is no overfitting.
