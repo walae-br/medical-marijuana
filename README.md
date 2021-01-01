@@ -7,7 +7,7 @@ roots needed to be classified into two groups:
 “Non-hairy” roots
 
 
-![Dataset Sample](?https://github.com/walae-br/medical-marijuana/blob/main/images/mm_dataset.png?raw=true)
+![Dataset Sample](https://github.com/walae-br/medical-marijuana/blob/main/images/mm_dataset.png?raw=true)
 
 
 The dataset of 1,524 root images includes:
